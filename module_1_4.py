@@ -1,0 +1,10 @@
+my_string=input('какого цвета у Вас глаза? ')
+print(len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+print('какого цвета у Вас глаза,'.replace(' ',''))
+print(my_string[:1:])
+print(my_string[-1:])
+
+my_string=('какого цвета у Вас глаза? ')
+print(my_string.replace(' ',''))
